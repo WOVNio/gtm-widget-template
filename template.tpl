@@ -52,8 +52,9 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
-const url = 'https://j.wovn.io/1?token=' + data.token;
+const url = 'https://j.wovn.io/1?token=' + encodeUriComponent(data.token);
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 return url;
 
@@ -96,12 +97,12 @@ scenarios:
 - name: Injects correct URL
   code: |-
     const mockData = {
-      token: 'token1'
+      token: 'token%'
     };
 
     const result = runCode(mockData);
 
-    assertThat(result).isEqualTo('https://j.wovn.io/1?token=token1');
+    assertThat(result).isEqualTo('https://j.wovn.io/1?token=token%25');
 
 
 ___NOTES___
