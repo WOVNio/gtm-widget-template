@@ -15,5 +15,5 @@
 homepage: "https://wovn.io"
 documentation: "https://github.com/WOVNio/gtm-widget-template"
 versions:
-  - sha: fbaae9a870409ba7a93c0160d17d6a478e986ac2
+  - sha: 5e613a7899f26ee3b298f69a1d93c2538b4b3ad5
     changeNotes: Initial Version
