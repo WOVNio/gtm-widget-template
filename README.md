@@ -5,8 +5,8 @@ This tag template inserts the WOVN.io widget onto the page.
 
 Instructions:
 1. Create an account at WOVN.io
-2. Install "WOVN.io Widget" tag template in Google Tag Manager.
-3. Fill in the Project Token setting from the WOVN.io project dashboard.
+2. In Google Tag Manager, install the "WOVN.io Javascript Widget" tag template from the Community Template Gallery.
+3. Fill in the Project Token setting (found in Integration Methods in your WOVN.io project dashboard).
 
 Support:
 https://wovn.io/support/
