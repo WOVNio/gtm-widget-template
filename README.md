@@ -1,7 +1,7 @@
 # WOVN.io Google Tag Manager template
 
 [WOVN.io](https://wovn.io) provides localization services for your website.
-This tag template inserts the WOVN.io widget onto the page.
+This tag template inserts the WOVN.io Javascript widget onto the page.
 
 Instructions:
 1. Create an account at WOVN.io
